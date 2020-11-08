@@ -32,7 +32,7 @@ if not client.is_user_authorized():
     # signing in the client 
     client.sign_in(phone, input('Enter the code: ')) 
    
-#user_to_patovear_Name = "@rnhidalgo"
+#user_to_patovear_Name = "@AAAAAAAA"
 #user_to_patovear_Entity = client.get_entity(user_to_patovear_Name)
 
 user_to_patovear_Name = "patovagroup"
