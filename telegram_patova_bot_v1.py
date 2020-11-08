@@ -40,10 +40,10 @@ message = "Test de Nico - Patova_Bot"
 try: 
     # receiver user_id and access_hash, use 
     # my user_id and access_hash for reference 
-    receiver = InputPeerUser(user_to_patovear_Name, user_to_patovear_Hash) 
+    #receiver = InputPeerUser(user_to_patovear_Name, user_to_patovear_Hash) 
   
     # sending message using telegram client 
-    client.send_message(receiver, message, parse_mode='html') 
+    client.send_message(entity=user_to_patovear_Entity, message=message)
 except Exception as e: 
       
     # there may be many error coming in while like peer 
