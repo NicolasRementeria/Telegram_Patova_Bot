@@ -1,0 +1,58 @@
+// https://api.telegram.org/bot<BOT_TOKEN>/getUpdates
+
+// https://www.geeksforgeeks.org/send-message-to-telegram-user-using-python/
+
+// https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e
+
+	"ok": true,
+	"result": [
+		{
+			"update_id": 111111111,
+			"message": {
+				"message_id": 2,
+				"from": {
+					"id": 111111111111,
+					"is_bot": false,
+					"first_name": "AAAAAAAA",
+					"last_name": "AAAAAAAAAAAA",
+					"username": "AAAAAAAAAA",
+					"language_code": "en"
+				},
+				"chat": {
+					"id": 1111111111,
+					"first_name": "AAAAAAAA",
+					"last_name": "AAAAAAAAAAA",
+					"username": "AAAAAAAAAAA",
+					"type": "private"
+				},
+				"date": 1604863908,
+				"text": "/tone",
+				"entities": [ { "offset": 0, "length": 5, "type": "bot_command" } ]
+			}
+		},
+		{
+			"update_id": 11111111111,
+			"message": {
+				"message_id": 3,
+				"from": {
+					"id": 111111111111,
+					"is_bot": false,
+					"first_name": "AAAAAAAA",
+					"last_name": "AAAAAAAA",
+					"username": "AAAAAAAA",
+					"language_code": "en"
+				},
+				"chat": {
+					"id": 111111111111111111,
+					"first_name": "AAAAAAAA",
+					"last_name": "AAAAAAAA",
+					"username": "AAAAAAAA",
+					"type": "private"
+				},
+				"date": 1604863910,
+				"text": "/token",
+				"entities": [ { "offset": 0, "length": 6, "type": "bot_command" } ]
+			}
+		}
+	]
+}

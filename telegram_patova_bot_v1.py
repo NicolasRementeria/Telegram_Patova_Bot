@@ -9,8 +9,8 @@ from telethon import TelegramClient, sync, events
 # from telegram as described above 
 
 api_id = '1111111'
-api_hash = '11111111111111111111111111111'
-token = '11111111:11111111111111111111111'
+api_hash = '111111111111111111111111111'
+token = '111111111:1111111111111111111111'
 
 # your phone number 
 phone = '+11111111111'
@@ -32,8 +32,14 @@ if not client.is_user_authorized():
     # signing in the client 
     client.sign_in(phone, input('Enter the code: ')) 
    
-user_to_patovear_Name = "@rnhidalgo"
-user_to_patovear_Entity = client.get_entity(user_to_patovear_Name)
+#user_to_patovear_Name = "@rnhidalgo"
+#user_to_patovear_Entity = client.get_entity(user_to_patovear_Name)
+
+user_to_patovear_Name = "patovagroup"
+#chat_url = "https://t.me/joinchat/11111111111111111111111111"
+chat_url = "https://t.me/MYGROUP"
+channel_entity = client.get_entity(chat_url)
+#user_to_patovear_Name = "111111111111111111"
 
 message = "Test de Nico - Patova_Bot"
 
